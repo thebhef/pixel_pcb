@@ -29,11 +29,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pixel_pcb_r0
+LIBS:pixel_pcb_r0-cache
 EELAYER 25 0
 EELAYER END
 $Descr D 34000 22000
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -49,4 +51,10 @@ Text Notes 29650 21250 0    60   ~ 0
 Pixel - block diagram
 Text Notes 32900 21350 0    60   ~ 0
 0
+$Sheet
+S 20500 4750 2600 2600
+U 551787C3
+F0 "uC" 60
+F1 "uC.sch" 60
+$EndSheet
 $EndSCHEMATC
